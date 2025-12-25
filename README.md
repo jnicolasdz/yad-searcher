@@ -23,7 +23,6 @@ This script is made for only work in a terminal:
 
 ```
 $ ./web-search-cli <argument>
-
 ```
 
 The script will search automatically you argument in a firefox window.
@@ -35,7 +34,6 @@ This script make a visual form of the last script, generate a window using yad t
 window:
 ```
 $ ./web-search-yad
-
 ```
 I suggest to conver this script into a keybind by the following line:
 ```
