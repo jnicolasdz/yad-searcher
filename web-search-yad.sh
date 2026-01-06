@@ -11,5 +11,7 @@ for data in $text
   do
     addr=$addr$data+
   done
-firefox https://duckduckgo.com/?q=$addr&t=ffab&ia=web
 
+if [[ -n "$addr" ]]; then
+	firefox https://duckduckgo.com/?q=$addr&t=ffab&ia=web
+fi
