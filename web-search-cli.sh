@@ -10,6 +10,9 @@ else
  	do
 		addr=$addr$data+
 	done
+	
+	if [[ -n "$addr" ]]; then
 	firefox https://duckduckgo.com/?q=$addr&t=ffab&ia=web
+	fi
 
 fi
